@@ -43,7 +43,7 @@ dotnet publish -c release -r linux-arm
 It's possible to run the program outside of the dotnet ecosystem by making an publishing a binary and navigating to it from your console. You could even give it your own files to crunch if you wanted to with something like the following block:
 
 ```
-cat commands.txt | ./robot
+cat commands.txt | ./toy-robot
 ```
 
 ## Commands and design
