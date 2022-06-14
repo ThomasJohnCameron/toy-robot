@@ -192,5 +192,9 @@ RESET
 
 Note that no output is given. This is expected behaviour. The board has been reset. The robot was always just your imagination.
 
+Here's a graph of what how the code behaves under the hood:
+
+![Diagram](Architecture_Diagram.png)
+
 Have fun being a robot now! 
 Author - Thomas John Cameron
