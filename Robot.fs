@@ -28,7 +28,6 @@ module Environment =
 
     let log (env: Environment) : unit =
         env.reports
-        |> List.rev
         |> List.iter (fun s -> printfn "%s" s)
 
 module Parse =
@@ -192,7 +191,6 @@ module Process =
         | Reset -> { robot = None; reports = [] }
 
     let commands (size: int) (env: Environment) (cmds: List<Command>) : Environment = List.fold (command size) env cmds
-
 
     module Tests =
         open NUnit.Framework
